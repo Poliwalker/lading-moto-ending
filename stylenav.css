@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Fira+Sans&family=Oleo+Script:wght@700&family=PT+Sans:ital@1&family=PT+Serif:ital@1&family=Patrick+Hand&family=Source+Code+Pro:ital,wght@1,600&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'anton';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    box-shadow: 3px 3px 6px 2px rgba(0,0,0,0.58);
+    opacity: 0.9;
+    z-index: 10;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ 
+}
+
+.logo {
+    height: 100px;
+    width:100px;
+}
+
+.fa-bars{
+    color: rgb(79, 187, 58);
+    font-size: 30px;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.menu-toggle-div{
+    display: none;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.list li a{
+    color: rgb(79, 187, 58);
+    list-style: none;
+    text-decoration: none;
+}
+
+.list li a:hover{
+    color: aliceblue;
+}
+
+
+
+
+
+
+@media screen and (max-width:450px){
+    .header {
+
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        opacity: 1;
+
+}
+
+.menu-toggle-div{
+    display: block;
+}
+
+.menu-toggle{
+    display: none;
+ }
+
+ .toggle{
+    display: none;
+    text-align: center;
+    background-color: black;
+    font-weight: 600;
+    width: 100%;
+ }
+
+ .toggle li {
+    display: flex;
+    justify-content: center;
+    padding: 0 10rem;
+  }
+
+  .menu-toggle:checked + .toggle {
+    display: block;
+  }
+
+  .list{
+    gap: 10px;
+  }
+
+  .menu-toggle-div{
+    position: relative;
+  }
+
+  .list{
+    position: absolute;
+    right: 0px;
+    top: 99px;
+  }
+}
+    
+
+
+
+
+
