@@ -34,7 +34,7 @@
 }
 
 .presentation h1 {
-	font-size: 80px;
+	font-size: 70px;
 	font-weight: 300;
 	font-family: 'Impact';
     font-style: oblique;
@@ -116,7 +116,7 @@
 	width: 100%;
 	max-width: 650px;
 	font-family: "PT serif";
-	font-size: 25px;
+	font-size: 20px;
 }
 
 
@@ -125,7 +125,7 @@
 span{
     font-size: 30px;
 	font-weight: 900;
-	color: var(--verde5);
+	color: rgb(90, 255, 115);
 }
 
 

@@ -88,15 +88,18 @@
     }
 
     .seccion4 h2{
-        font-size: 70px;
+        font-size: 50px;
         font-family: 'kanit';
         font-weight: 700;
         font-family: 'Poppins';
+        text-transform: uppercase;
+        font-style: oblique;
+        letter-spacing: 5px;
     }
 
     .seccion4 h3{
         margin: 50px auto 100px;
-        font-size: 40px;
+        font-size: 30px;
         max-width: 100%;
         font-family: 'Inconsolata';
         font-weight: 300;
@@ -104,12 +107,12 @@
     }
 
     .seccion4-container h4{
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'poppins';
     }
 
     .seccion4-container p{
-        font-size: 22px;
+        font-size: 16px;
         font-family: 'Inconsolata';
         font-weight: 400;
     }
