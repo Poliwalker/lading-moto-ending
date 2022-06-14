@@ -106,7 +106,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20rem 2rem;
+	padding: 10rem 2rem;
 	background-color: var(--verde2);
 	
 }
@@ -155,6 +155,7 @@ span{
 	.presentation h2 {
 		font-size: 15px;
 		padding: 10px 0;
+		text-align: center;
 	}
 	
 	.main-link {

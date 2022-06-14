@@ -58,7 +58,7 @@
     box-shadow: -4px 1px 37px 10px rgba(0,0,0,0.66);
     border-radius: 10%;
     margin: 20px auto 30px;
-    padding: 2rem .8rem;
+    padding: 0.5rem;
     background-color: beige;
     z-index: 1;
 }
@@ -92,7 +92,7 @@
     .seccion3-container{
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 150px;
+        gap: 100px;
     }
 
     .seccion3 h2{
