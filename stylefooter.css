@@ -60,7 +60,10 @@ font-family: 'poppins';
 .footer-link{
     list-style: none;
     display: flex;
-    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
 }
 
 .footer-link a{
@@ -69,6 +72,85 @@ font-family: 'poppins';
 
 .footer-link a>img{
     width: 50px;
+}
+
+
+
+.fa-facebook-square{
+    font-size: 50px;
+    color:#fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    padding: 1rem;
+    transition-property: outline-offset, outline-color,background-color;
+    transition-duration:.25s ;
+    
+}
+
+.fa-instagram{
+    font-size: 50px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    padding: 1rem;
+}
+
+.fa-twitter{
+    font-size: 50px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    padding: 1rem;
+}
+
+.fa-github{
+    font-size: 50px;
+    color:#fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    padding: 1rem;
+    transition-property: outline-offset, outline-color,background-color;
+    transition-duration:.25s ;
+}
+
+.footer-link:hover{
+    outline-offset: 4px;
+}
+
+.fa-facebook-square:hover{
+    background-color:#0d8af0;
+    outline-color: #0d8af0;
+    animation: shake .25s;
+}
+
+.fa-instagram:hover{
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%,#fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    outline-color: #a02d76;
+    animation: shake .25s;
+}
+
+.fa-twitter:hover{
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+    animation: shake .25s;
+}
+
+.fa-github:hover{
+    background-color: #161b22;
+    outline-color: #161b22;
+    animation: shake .25s;
+}
+
+@keyframes shake{
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+
+}
+
+iframe{
+    margin-top: 50px;
 }
 
 .footer-logo{
@@ -112,20 +194,6 @@ font-family: 'poppins';
     }
 }
 
-.fa-facebook-square{
-    font-size: 50px;
-    color: blue;
-}
-
-.fa-instagram{
-    font-size: 50px;
-    color: rgb(228, 15, 115);
-}
-
-.fa-twitter{
-    font-size: 50px;
-    color: rgb(40, 191, 242);
-}
 
 @media (max-width:450px) {
 
