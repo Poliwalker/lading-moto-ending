@@ -132,16 +132,14 @@ span{
 		flex-direction: column;
 		flex-wrap: nowrap;
 		gap: 50px;
-		padding: 4rem 2rem 6rem;
+		padding: 4rem 1rem;
 		background-color: var(--verde2);
 		margin-top: 100px;
 	
 	}
 	
 	.presentation {
-		max-width: auto;
-		margin-right: auto;
-		max-width: 300px;
+		max-width: 250px;
 		margin-top:60px;
 	}
 	
